@@ -1,5 +1,4 @@
 class Carta:
-    # Definimos las 4 constantes para las pintas
     CORAZONES = "Corazones"
     DIAMANTES = "Diamantes"
     TREBOLES = "Tréboles"
@@ -12,7 +11,6 @@ class Carta:
     def __repr__(self):
         return f"{self.valor} de {self.pinta}"
 
-# Ejemplo de creación de una carta
 mi_carta = Carta("As", Carta.CORAZONES)
 print(mi_carta)
 
